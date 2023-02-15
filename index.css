@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    margin: 5em auto;
+    /* background-color: antiquewhite; */
+    background-color: #f5d3d7;
+    /* background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); */
+
+}
+.inputbox{
+    height: 3em;
+    width: 50%;
+    border: none;
+    border-radius: 2rem;
+    outline: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.remove{
+    display: none
+}
+.inputbox::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 5px 4px;
+}
+.list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.deleteall{
+    margin: 1rem auto;
+    padding: 10px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 2rem;
+}
+.list-container li button{
+    float: right;
+    /* padding: 5px 5px; */
+    /* margin-left: 10px; */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.list-container li{
+    background-color:#9FA4C4;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 10rem;
+    /* height: 3em; */
+    padding: 10px;
+}
+.list-container li:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+.complete{
+    background-color: red;
+    text-decoration: line-through;
+}
+.delete{
+    display: none;
+}
+.list{
+    list-style-type: none;
+}
+.input:focus{
+    outline: none;
+
+}
